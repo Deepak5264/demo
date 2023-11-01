@@ -11,7 +11,6 @@
   "hasSetupSection": false,
   "owner": "ds5387391@gmail.com",
   "permissionsVersion": "V2",
-
   "permissions": [
     {
       "group": "space_administrators",
@@ -31,7 +30,6 @@
       "executeApp": false
     }
   ],
-
   "additionalDashboardUsers": {
     "users": []
   },
@@ -168,8 +166,7 @@
     },
     "dkuProperties": []
   },
-
-  "name": "demo2",
+  "name": "demo1",
   "projectStatus": "Sandbox",
   "metrics": {
     "probes": [],
@@ -227,12 +224,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "ds5387391@gmail.com"
     },
-
-    "lastModifiedOn": 1698822599357,
+    "lastModifiedOn": 1698828474469,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -243,9 +239,7 @@
     "lastModifiedOn": 1698821634478,
     "extendedProperties": {}
   },
-
-  "shortDesc": "The project *demo2* was created by ds5387391 on Nov 01st 2023",
-
+  "shortDesc": "The project *demo1* was created by ds5387391 on Nov 01st 2023",
   "tags": [],
   "customFields": {},
   "checklists": {
