@@ -14,7 +14,7 @@ data1_df = data1.get_dataframe()
 # NB: DSS also supports other kinds of APIs for reading and writing data. Please see doc.
 
 data_prepared_df = data1_df # For this sample code, simply copy input to output
-data_prepared_df['newtime'] = data_prepared_df['timestamp'].strftime('%Y-%m-%d %H:%M')
+#data_prepared_df['newtime'] = data_prepared_df['timestamp'].strftime('%Y-%m-%d %H:%M')
 #time.sleep(10)
 
 # Write recipe outputs
