@@ -2,7 +2,7 @@
 import dataiku
 import pandas as pd, numpy as np
 from dataiku import pandasutils as pdu
-import time
+#import time
 
 # Read recipe inputs
 data1 = dataiku.Dataset("data1")
@@ -14,7 +14,8 @@ data1_df = data1.get_dataframe()
 # NB: DSS also supports other kinds of APIs for reading and writing data. Please see doc.
 
 data_prepared_df = data1_df # For this sample code, simply copy input to output
-time.sleep(10)
+#data_prepared_df['newtime'] = data_prepared_df['timestamp'].strftime('%Y-%m-%d %H:%M')
+#time.sleep(10)
 
 # Write recipe outputs
 data_prepared = dataiku.Dataset("data_prepared")
