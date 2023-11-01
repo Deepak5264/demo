@@ -45,7 +45,20 @@
     "useRemoteGit": true,
     "disableAutomaticTriggers": false,
     "integrations": {
-      "integrations": []
+      "integrations": [
+        {
+          "active": true,
+          "hook": {
+            "type": "github",
+            "configuration": {
+              "useProxy": true,
+              "username": "mshahid1996",
+              "accessToken": "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",
+              "repository": "https://github.com/Deepak5264/demo.git"
+            }
+          }
+        }
+      ]
     },
     "flowBuildSettings": {
       "mergeSparkPipelines": false,
@@ -211,11 +224,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
-      "login": "api:R9HMXHPS92NELI7R"
+      "login": "ds5387391@gmail.com"
     },
-    "lastModifiedOn": 1698820891605,
+    "lastModifiedOn": 1698822098905,
     "extendedProperties": {}
   },
   "creationTag": {
