@@ -37,11 +37,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "ds5387391@gmail.com"
     },
-    "lastModifiedOn": 1698831318497,
+    "lastModifiedOn": 1698831512450,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -72,6 +72,7 @@
     "columns": [
       {"name":"timestamp","type":"string"},
       {"name":"timesamp_UTC","type":"string"},
+      {"name":"newtime","type":"string"},
       {"name":"date_of_timestamp","type":"string"},
       {"name":"hour_of_timestamp","type":"bigint"},
       {"name":"min_of_timestamp","type":"bigint"},
