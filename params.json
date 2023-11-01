@@ -30,6 +30,7 @@
       "executeApp": false
     }
   ],
+
   "additionalDashboardUsers": {
     "users": []
   },
@@ -166,7 +167,8 @@
     },
     "dkuProperties": []
   },
-  "name": "demo1",
+
+  "name": "demo2",
   "projectStatus": "Sandbox",
   "metrics": {
     "probes": [],
@@ -228,7 +230,8 @@
     "lastModifiedBy": {
       "login": "ds5387391@gmail.com"
     },
-    "lastModifiedOn": 1698822098905,
+
+    "lastModifiedOn": 1698822142747,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -236,10 +239,12 @@
     "lastModifiedBy": {
       "login": "ds5387391@gmail.com"
     },
-    "lastModifiedOn": 1698820741755,
+
+    "lastModifiedOn": 1698821634478,
     "extendedProperties": {}
   },
-  "shortDesc": "The project *demo1* was created by ds5387391 on Nov 01st 2023",
+  "shortDesc": "The project *demo2* was created by ds5387391 on Nov 01st 2023",
+
   "tags": [],
   "customFields": {},
   "checklists": {
@@ -251,28 +256,32 @@
           {
             "done": true,
             "text": "Create the project",
-            "createdOn": 1698820741757,
+
+            "createdOn": 1698821634478,
             "createdBy": "ds5387391@gmail.com",
             "stateChangedOn": 0
           },
           {
             "done": false,
             "text": "Set a project image (click on the color next to the project title)",
-            "createdOn": 1698820741757,
+
+            "createdOn": 1698821634478,
             "createdBy": "ds5387391@gmail.com",
             "stateChangedOn": 0
           },
           {
             "done": false,
-            "text": "Import your [first dataset](projects/DEMO1/datasets/new/)",
-            "createdOn": 1698820741757,
+
+            "text": "Import your [first dataset](projects/DEMO2/datasets/new/)",
+            "createdOn": 1698821634478,
             "createdBy": "ds5387391@gmail.com",
             "stateChangedOn": 0
           },
           {
             "done": false,
             "text": "Organize your work by replacing this with a real todo",
-            "createdOn": 1698820741757,
+
+            "createdOn": 1698821634478,
             "createdBy": "ds5387391@gmail.com",
             "stateChangedOn": 0
           }
