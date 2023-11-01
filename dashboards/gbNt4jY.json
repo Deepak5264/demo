@@ -1,0 +1,36 @@
+{
+  "pages": [
+    {
+      "id": "93buHhm",
+      "grid": {
+        "tiles": []
+      },
+      "showTitle": false
+    }
+  ],
+  "owner": "ds5387391@gmail.com",
+  "listed": true,
+  "name": "demo1\u0027s default dashboard",
+  "showGrid": true,
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "ds5387391@gmail.com"
+    },
+    "lastModifiedOn": 1698820741758,
+    "extendedProperties": {}
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "ds5387391@gmail.com"
+    },
+    "lastModifiedOn": 1698820741758,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

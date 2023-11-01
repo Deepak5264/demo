@@ -1,8 +1,8 @@
 {
-  "type": "UploadedFiles",
-  "managed": false,
+  "type": "S3",
+  "managed": true,
   "featureGroup": false,
-  "formatType": "csv",
+  "formatType": "parquet",
   "checklists": {
     "checklists": []
   },
@@ -11,7 +11,7 @@
     "kv": {}
   },
   "flowOptions": {
-    "virtualizable": false,
+    "virtualizable": true,
     "rebuildBehavior": "NORMAL",
     "crossProjectBuildBehavior": "DEFAULT"
   },
@@ -25,35 +25,11 @@
     }
   },
   "formatParams": {
-    "style": "excel",
-    "charset": "utf-8",
-    "separator": ",",
-    "quoteChar": "\"",
-    "escapeChar": "\\",
-    "maxRowChars": 100000000,
-    "dateSerializationFormat": "ISO",
-    "arrayMapFormat": "json",
-    "hiveSeparators": [
-      "\u0002",
-      "\u0003",
-      "\u0004",
-      "\u0005",
-      "\u0006",
-      "\u0007",
-      "\b"
-    ],
-    "skipRowsBeforeHeader": 0,
-    "parseHeaderRow": true,
-    "skipRowsAfterHeader": 0,
-    "probableNumberOfRecords": 9,
-    "normalizeBooleans": false,
-    "normalizeDoubles": true,
-    "readAdditionalColumnsBehavior": "INSERT_IN_DATA_WARNING",
-    "readMissingColumnsBehavior": "DISCARD_SILENT",
-    "readDataTypeMismatchBehavior": "DISCARD_WARNING",
-    "writeDataTypeMismatchBehavior": "DISCARD_WARNING",
-    "fileReadFailureBehavior": "FAIL",
-    "compress": ""
+    "parquetLowerCaseIdentifiers": false,
+    "representsNullFields": false,
+    "parquetCompressionMethod": "SNAPPY",
+    "parquetFlavor": "HIVE",
+    "parquetBlockSizeMB": 128
   },
   "partitioning": {
     "ignoreNonMatchingFile": false,
@@ -65,9 +41,7 @@
     "lastModifiedBy": {
       "login": "ds5387391@gmail.com"
     },
-
-    "lastModifiedOn": 1698820775318,
-
+    "lastModifiedOn": 1698821349883,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -75,28 +49,17 @@
     "lastModifiedBy": {
       "login": "ds5387391@gmail.com"
     },
-    "lastModifiedOn": 1698820769306,
+    "lastModifiedOn": 1698820808004,
     "extendedProperties": {}
   },
   "tags": [],
   "params": {
-    "uploadFSProviderType": "S3",
-    "uploadedConfig": {
-      "bucket": "gis-data-ap-southeast-1",
-      "metastoreSynchronizationEnabled": true,
-      "metastoreDatabaseName": "default",
-      "metastoreTableName": "${projectKey}_data1",
-      "connection": "dataiku-managed-storage",
-      "path": "/managed-dss-data/uploads/${projectKey}/data1",
-      "notReadyIfEmpty": false,
-      "filesSelectionRules": {
-        "mode": "ALL",
-        "excludeRules": [],
-        "includeRules": [],
-        "explicitFiles": []
-      }
-    },
+    "bucket": "gis-data-ap-southeast-1",
+    "metastoreSynchronizationEnabled": true,
+    "metastoreDatabaseName": "default",
+    "metastoreTableName": "${projectKey}_data_prepared",
     "connection": "dataiku-managed-storage",
+    "path": "/managed-dss-data/${projectKey}/data_prepared",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
       "mode": "ALL",
@@ -110,14 +73,14 @@
       {"name":"timestamp","type":"string"},
       {"name":"timesamp_UTC","type":"string"},
       {"name":"date_of_timestamp","type":"string"},
-      {"name":"hour_of_timestamp","type":"string"},
-      {"name":"min_of_timestamp","type":"string"},
+      {"name":"hour_of_timestamp","type":"bigint"},
+      {"name":"min_of_timestamp","type":"bigint"},
       {"name":"packager_host","type":"string"},
       {"name":"channel","type":"string"},
-      {"name":"packager_error_count","type":"string"},
+      {"name":"packager_error_count","type":"bigint"},
       {"name":"Channel_Description","type":"string"}
     ],
-    "userModified": true
+    "userModified": false
   },
   "dkuProperties": [],
   "metrics": {
