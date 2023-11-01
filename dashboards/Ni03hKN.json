@@ -1,0 +1,36 @@
+{
+  "pages": [
+    {
+      "id": "6ZbAuJE",
+      "grid": {
+        "tiles": []
+      },
+      "showTitle": false
+    }
+  ],
+  "owner": "ds5387391@gmail.com",
+  "listed": true,
+  "name": "demo2\u0027s default dashboard",
+  "showGrid": true,
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "ds5387391@gmail.com"
+    },
+    "lastModifiedOn": 1698821634479,
+    "extendedProperties": {}
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "ds5387391@gmail.com"
+    },
+    "lastModifiedOn": 1698821634479,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
