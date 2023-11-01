@@ -3,14 +3,14 @@
   "centileSplits": [
     {
       "outputIndex": 0,
-      "share": 50.0
+      "share": 50
     }
   ],
-  "defaultOutputIndex": 1,
   "preFilter": {
     "distinct": false,
     "enabled": false
   },
+  "defaultOutputIndex": 1,
   "seed": 1337,
   "randomColumns": [],
   "centileOrders": [],
@@ -18,22 +18,24 @@
   "randomSplits": [
     {
       "outputIndex": 0,
-      "share": 50.0
+      "share": 50
     }
   ],
   "randomColumnsSplits": [
     {
       "outputIndex": 0,
-      "share": 50.0
+      "share": 50
     }
   ],
   "computedColumns": [],
   "writeComputedColumnsInOutput": false,
+  "mode": "FILTERS",
   "centileTDigest": false,
   "valueSplits": [
     {
       "outputIndex": 0,
-      "caseSensitive": false
+      "caseSensitive": false,
+      "value": ""
     }
   ],
   "rangeSplits": [
@@ -88,7 +90,64 @@
       "filter": {
         "uiData": {
           "mode": "\u0026\u0026",
-          "conditions": []
+          "$latestOperator": "\u0026\u0026",
+          "$filterOptions": "rules",
+          "conditions": [
+            {
+              "input": "packager_error_count",
+              "col": "timesamp_UTC",
+              "$showList": false,
+              "num": 0,
+              "items": [],
+              "operator": "\u003d\u003d [number]"
+            }
+          ]
+        },
+        "$status": {
+          "schema": {
+            "columns": [
+              {
+                "name": "timestamp",
+                "type": "string"
+              },
+              {
+                "name": "timesamp_UTC",
+                "type": "string"
+              },
+              {
+                "name": "newtime",
+                "type": "string"
+              },
+              {
+                "name": "date_of_timestamp",
+                "type": "string"
+              },
+              {
+                "name": "hour_of_timestamp",
+                "type": "bigint"
+              },
+              {
+                "name": "min_of_timestamp",
+                "type": "bigint"
+              },
+              {
+                "name": "packager_host",
+                "type": "string"
+              },
+              {
+                "name": "channel",
+                "type": "string"
+              },
+              {
+                "name": "packager_error_count",
+                "type": "bigint"
+              },
+              {
+                "name": "Channel_Description",
+                "type": "string"
+              }
+            ]
+          }
         },
         "distinct": false,
         "enabled": true
