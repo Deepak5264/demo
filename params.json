@@ -166,9 +166,10 @@
     },
     "dkuProperties": []
   },
-  "name": "staging",
+
+  "name": "Production",
   "projectStatus": "Sandbox",
-  "imgPattern": 8,
+  "imgPattern": 7,
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -225,11 +226,13 @@
     }
   },
   "versionTag": {
-    "versionNumber": 10,
+
+    "versionNumber": 8,
     "lastModifiedBy": {
       "login": "ds5387391@gmail.com"
     },
-    "lastModifiedOn": 1698834634804,
+    "lastModifiedOn": 1698834577937,
+
     "extendedProperties": {}
   },
   "creationTag": {
@@ -240,7 +243,9 @@
     "lastModifiedOn": 1698821634478,
     "extendedProperties": {}
   },
-  "shortDesc": "The project *staging* was created by ds5387391 on Nov 01st 2023",
+
+  "shortDesc": "The project *production* was created by ds5387391 on Nov 01st 2023",
+
   "tags": [],
   "customFields": {},
   "checklists": {
