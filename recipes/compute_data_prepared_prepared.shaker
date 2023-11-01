@@ -29,8 +29,26 @@
   },
   "explorationFilters": [],
   "columnUseScientificNotationByName": {},
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "DateFormatter",
+      "params": {
+        "inCol": "timesamp_UTC",
+        "outCol": "newtime",
+        "format": "Y-m-d H:M",
+        "timezone_id": "UTC",
+        "lang": "auto"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -57,7 +75,18 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "Channel_Description": 176,
+    "date_of_timestamp": 169,
+    "hour_of_timestamp": 143,
+    "newtime": 183,
+    "timesamp_UTC": 183,
+    "channel": 100,
+    "packager_error_count": 165,
+    "min_of_timestamp": 135,
+    "packager_host": 141,
+    "timestamp": 148
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
