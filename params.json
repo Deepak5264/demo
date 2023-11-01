@@ -11,7 +11,27 @@
   "hasSetupSection": false,
   "owner": "ds5387391@gmail.com",
   "permissionsVersion": "V2",
-  "permissions": [],
+
+  "permissions": [
+    {
+      "group": "space_administrators",
+      "admin": true,
+      "readProjectContent": false,
+      "writeProjectContent": false,
+      "exportDatasetsData": false,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "publishToDataCollections": false,
+      "shareToWorkspaces": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false,
+      "executeApp": false
+    }
+  ],
+
   "additionalDashboardUsers": {
     "users": []
   },
@@ -148,6 +168,7 @@
     },
     "dkuProperties": []
   },
+
   "name": "demo2",
   "projectStatus": "Sandbox",
   "metrics": {
@@ -210,6 +231,7 @@
     "lastModifiedBy": {
       "login": "ds5387391@gmail.com"
     },
+
     "lastModifiedOn": 1698822599357,
     "extendedProperties": {}
   },
@@ -221,7 +243,9 @@
     "lastModifiedOn": 1698821634478,
     "extendedProperties": {}
   },
+
   "shortDesc": "The project *demo2* was created by ds5387391 on Nov 01st 2023",
+
   "tags": [],
   "customFields": {},
   "checklists": {
