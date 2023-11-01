@@ -166,8 +166,7 @@
     },
     "dkuProperties": []
   },
-
-  "name": "demo2",
+  "name": "demo1",
   "projectStatus": "Sandbox",
   "metrics": {
     "probes": [],
@@ -225,14 +224,11 @@
     }
   },
   "versionTag": {
-
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
-      "login": "api:R9HMXHPS92NELI7R"
+      "login": "ds5387391@gmail.com"
     },
-
-    "lastModifiedOn": 1698828474469,
-
+    "lastModifiedOn": 1698829016572,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -243,9 +239,7 @@
     "lastModifiedOn": 1698821634478,
     "extendedProperties": {}
   },
-
-  "shortDesc": "The project *demo2* was created by ds5387391 on Nov 01st 2023",
-
+  "shortDesc": "The project *demo1* was created by ds5387391 on Nov 01st 2023",
   "tags": [],
   "customFields": {},
   "checklists": {
