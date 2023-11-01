@@ -37,11 +37,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "ds5387391@gmail.com"
     },
-    "lastModifiedOn": 1698832046511,
+    "lastModifiedOn": 1698832121419,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -69,7 +69,18 @@
     }
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {"name":"timestamp","type":"string"},
+      {"name":"timesamp_UTC","type":"string"},
+      {"name":"newtime","type":"string"},
+      {"name":"date_of_timestamp","type":"string"},
+      {"name":"hour_of_timestamp","type":"bigint"},
+      {"name":"min_of_timestamp","type":"bigint"},
+      {"name":"packager_host","type":"string"},
+      {"name":"channel","type":"string"},
+      {"name":"packager_error_count","type":"bigint"},
+      {"name":"Channel_Description","type":"string"}
+    ],
     "userModified": true
   },
   "dkuProperties": [],
