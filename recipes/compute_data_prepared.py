@@ -14,7 +14,7 @@ data1_df = data1.get_dataframe()
 # NB: DSS also supports other kinds of APIs for reading and writing data. Please see doc.
 
 data_prepared_df = data1_df # For this sample code, simply copy input to output
-time.sleep(2)
+time.sleep(5)
 
 # Write recipe outputs
 data_prepared = dataiku.Dataset("data_prepared")
