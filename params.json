@@ -36,7 +36,7 @@
               "useProxy": true,
               "username": "mshahid1996",
               "accessToken": "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",
-              "repository": "https://github.com/mshahid1996/test_dataiku.git"
+              "repository": "https://github.com/Deepak5264/demo.git"
             }
           }
         }
@@ -206,11 +206,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "ds5387391@gmail.com"
     },
-    "lastModifiedOn": 1698821983070,
+    "lastModifiedOn": 1698822142747,
     "extendedProperties": {}
   },
   "creationTag": {
