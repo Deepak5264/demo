@@ -11,26 +11,7 @@
   "hasSetupSection": false,
   "owner": "ds5387391@gmail.com",
   "permissionsVersion": "V2",
-  "permissions": [
-    {
-      "group": "space_administrators",
-      "admin": true,
-      "readProjectContent": false,
-      "writeProjectContent": false,
-      "exportDatasetsData": false,
-      "readDashboards": false,
-      "writeDashboards": false,
-      "moderateDashboards": false,
-      "publishToDataCollections": false,
-      "shareToWorkspaces": false,
-      "runScenarios": false,
-      "manageDashboardAuthorizations": false,
-      "manageExposedElements": false,
-      "manageAdditionalDashboardUsers": false,
-      "executeApp": false
-    }
-  ],
-
+  "permissions": [],
   "additionalDashboardUsers": {
     "users": []
   },
@@ -167,7 +148,6 @@
     },
     "dkuProperties": []
   },
-
   "name": "demo2",
   "projectStatus": "Sandbox",
   "metrics": {
@@ -226,12 +206,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "ds5387391@gmail.com"
     },
-
-    "lastModifiedOn": 1698822142747,
+    "lastModifiedOn": 1698822599357,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -239,12 +218,10 @@
     "lastModifiedBy": {
       "login": "ds5387391@gmail.com"
     },
-
     "lastModifiedOn": 1698821634478,
     "extendedProperties": {}
   },
   "shortDesc": "The project *demo2* was created by ds5387391 on Nov 01st 2023",
-
   "tags": [],
   "customFields": {},
   "checklists": {
@@ -256,7 +233,6 @@
           {
             "done": true,
             "text": "Create the project",
-
             "createdOn": 1698821634478,
             "createdBy": "ds5387391@gmail.com",
             "stateChangedOn": 0
@@ -264,14 +240,12 @@
           {
             "done": false,
             "text": "Set a project image (click on the color next to the project title)",
-
             "createdOn": 1698821634478,
             "createdBy": "ds5387391@gmail.com",
             "stateChangedOn": 0
           },
           {
             "done": false,
-
             "text": "Import your [first dataset](projects/DEMO2/datasets/new/)",
             "createdOn": 1698821634478,
             "createdBy": "ds5387391@gmail.com",
@@ -280,7 +254,6 @@
           {
             "done": false,
             "text": "Organize your work by replacing this with a real todo",
-
             "createdOn": 1698821634478,
             "createdBy": "ds5387391@gmail.com",
             "stateChangedOn": 0
